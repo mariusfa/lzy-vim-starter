@@ -4,3 +4,6 @@
 
 -- "jj" to escape
 vim.keymap.set("i", "jj", "<Esc>", { silent = true })
+
+-- Toggle autosave
+vim.keymap.set("n", "<leader>n", ":ASToggle<CR>", { silent = true })
