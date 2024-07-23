@@ -6,3 +6,9 @@ vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 
 vim.g.autoformat = true
+
+vim.diagnostic.config({
+  float = {
+    border = "rounded",
+  },
+})
