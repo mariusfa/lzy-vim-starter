@@ -4,3 +4,8 @@
 
 -- "jj" to escape
 vim.keymap.set("i", "jj", "<Esc>", { silent = true })
+
+-- bordered terminal
+vim.keymap.set("n", "<leader>ft", function()
+  LazyVim.terminal(nil, { border = "rounded" })
+end, { desc = "Terminal (cwd)" })
