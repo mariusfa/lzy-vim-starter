@@ -4,6 +4,7 @@
 
 -- "jj" to escape
 vim.keymap.set("i", "jj", "<Esc>", { silent = true })
+vim.keymap.set("i", "JJ", "<Esc>", { silent = true })
 
 -- bordered terminal
 vim.keymap.set("n", "<leader>ft", function()
