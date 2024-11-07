@@ -4,7 +4,6 @@
 
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
-vim.opt.formatoptions = vim.opt.formatoptions - "cro"
 
 vim.opt.conceallevel = 0
 
